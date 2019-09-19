@@ -1,0 +1,82 @@
+App
+1.	Console
+1.1.	Kernel.php
+2.	Exception
+2.1.	Handler.php
+3.	Http
+3.1.	Controllers   
+3.2.	Middleware
+3.3.	Kernel.php
+4.	Providers
+4.1.	AppServiceProvider.php	
+4.2.	AuthServiceProvider.php	
+4.3.	BroadcastServiceProvider.php	
+4.4.	EventServiceProvider.php	
+4.5.	RouteServiceProvider.php
+5.	User.php
+Bootstrap
+1.	Cache
+2.	App.php
+Config
+1.	app.php	
+2.	auth.php	
+3.	broadcasting.php	
+4.	cache.php	
+5.	database.php	
+6.	filesystems.php	
+7.	hashing.php	
+8.	logging.php	
+9.	mail.php	
+10.	queue.php	
+11.	services.php	
+12.	session.php	
+13.	view.php
+Database
+1.	factories
+1.1.	UserFactory.php	
+2.	Migrations   
+2.1.	2014_10_12_000000_create_users_table.php
+2.2.	2014_10_12_100000_create_password_resets_table.php
+2.3.	2019_08_19_000000_create_failed_jobs_table.php	
+3.	Seeds
+3.1.	DatabaseSeeder.php
+
+Public
+1.	.htaccess	
+2.	favicon.ico	
+3.	index.php	
+4.	robots.txt	
+5.	web.config	
+Resources
+1.	js
+1.1.	app.js	
+1.2.	bootstrap.js	
+2.	lang/en
+2.1.	auth.php	
+2.2.	pagination.php	
+2.3.	passwords.php	
+2.4.	validation.php
+3.	sass
+3.1.	app.scss	
+4.	views   
+4.1.	welcome.blade.php	
+Routes
+1.	api.php
+2.	channels.php	
+3.	console.php	
+4.	web.php   
+Storage
+1.	app/public	
+2.	framework
+2.1.	cache/data
+2.2.	sessions
+2.3.	testing
+2.4.	views	
+3.	logs
+Tests
+1.	Feature	
+1.1.	ExampleTest.php 
+2.	Unit
+2.1.	ExampleTest.php	
+3.	CreatesApplication.php	
+4.	TestCase.php
